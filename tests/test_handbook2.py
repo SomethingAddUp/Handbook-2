@@ -1,5 +1,4 @@
 import pytest
-from selenium.webdriver.common.by import By
 import POM.ecommerce as Ecom
 
 @pytest.mark.login

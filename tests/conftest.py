@@ -10,6 +10,7 @@ def driver(request):
     service = Service(ChromeDriverManager().install())
 
     chrome_options = Options()
+    chrome_options.add_argument("--lang=en-US")
     prefs = { "credentials_enable_service": False,
         "profile.password_manager_enabled": False,
         "profile.password_manager_leak_detection": False }
