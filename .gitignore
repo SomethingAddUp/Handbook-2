@@ -1,0 +1,13 @@
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# pytest
+.pytest_cache/
+
+# Python
+__pycache__/
+*.pyc
